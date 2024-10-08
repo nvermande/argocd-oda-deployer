@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/nvermande/otter-detective-agency.git
-    targetRevision:
+    targetRevision: csi
     path: deploy/k8s
   destination:
     server: https://kubernetes.default.svc
