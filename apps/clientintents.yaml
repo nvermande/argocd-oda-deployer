@@ -8,10 +8,10 @@ metadata:
 spec:
   project: default
   source:
-    - repoURL: https://github.com/nvermande/oda-app-policies.git
-        path: clientintents
-    - repoURL: https://github.com/nvermande/oda-app-policies.git
-        path: game-service
+    - repourl: https://github.com/nvermande/oda-app-policies.git
+      path: clientintents
+    - repourl: https://github.com/nvermande/oda-app-policies.git
+      path: game-service
   destination:
     server: https://kubernetes.default.svc
     namespace: oda
